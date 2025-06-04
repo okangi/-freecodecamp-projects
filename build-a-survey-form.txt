@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <style>
+      body { 
+        background-color: aquamarine;
+      }
+      button{
+        background-color: rgb(135, 136, 222);
+      }
+    </style>
+  </head>
+<body>
+  <h1 id="title">Health Questionnare</h1>
+  <p id="description">
+    A health questionnaire is like a conversation about your well-being—it helps uncover things that might not be obvious at first glance. Imagine sitting down with a doctor or a wellness expert, and they ask about how you're feeling, your daily habits, and any concerns you have about your health. That’s essentially what a health questionnaire does, but in a structured way. We would love to hear from you at your free will.
+
+  </p>
+  <form id="survey-form">
+    <label id="name-label">Name</label><br>
+    <input id="name" type="name" placeholder="First" required><br><br>
+    <input type="name" id="name" type="name" placeholder="Last" required ><br><br>
+    <label id="email-label">Email</label><br>
+    <input type="email" id="email" placeholder="@fake.gmail.com" required><br><br>
+    <label id="number-label">Number</label>
+    <input type="number" id="number" placeholder="####" required min="1" max="100"><br><br>
+  <label for="medical-condition">Do you have any existing medical conditions?</label>
+  <select id="dropdown">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+
+<label for="traveled-internationally">Have you traveled internationally in the past 14 days?</label>
+  <select id="dropdown">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+  <br><br>
+  <label for="covid-19-contact">Have you been in close contact with anyone diagnosed with COVID-19 in the past 14 days?</label>
+  <select id="dropdown">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+  <label for="covid-19-vaccine">Have you received the COVID-19 vaccine?</label>
+  <select id="dropdown">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+  <label for="date">Date</label>
+  <input type="date"><br>
+  <p>How often do you exercise?</p>
+  <input type="radio" id="daily" name="lifestyle-habits" value="daily">
+  <label for="daily" >Daily</label>
+  <br>
+  <input type="radio" id="weekly" name="lifestyle-habits" value="weekly">
+  <label for="weekly" >Weekly</label>
+  <br>
+<input type="radio" id="rarely" name="lifestyle-habits" value="rarely">
+  <label for="rarely" >Rarely</label>
+  <br>
+  <input type="radio" id="never" name="lifestyle-habits" value="never">
+  <label for="never" >Never</label>
+  <br>
+  <p>How would you describe your stress levels?</p>
+  <input type="radio" id="low" name="mental-health" value="low">
+  <label for="low" >Low</label>
+  <br>
+  <input type="radio" id="moderate" name="mental-health"
+  value="moderate">
+  <label for="moderate" >Moderate</label>
+  <br>
+  <input type="radio" id="high" name="mental-health" value="high">
+  <label for="high" >High</label>
+  <br>
+  <p>Which of the following apply to you? (Select all that apply)</p>
+  <input type="checkbox" id="diabetes" name="medical-condition" value="diabetes">
+  <label for="diabetes">Diabetes</label>
+  <br>
+  <input type="checkbox" id="hypertension" name="medical-condition" value="hypertension">
+  <label for="hypertension">Hypertension</label>
+  <br>
+  <input type="checkbox" id="asthma" name="medical-condition" value="asthma">
+  <label for="asthma">Asthma</label>
+  <br>
+  <input type="checkbox" id="other" name="medical-condition" value="other">
+  <label for="other">Other (specify)</label>
+  <input type="text" id="other-condition" name="other-condition">
+  <br><br>
+    <label for="health-comments">Additional health concerns or comments:</label><br>
+    <textarea id="health-comments" name="health-comments" rows="4" cols="50" placeholder="Enter your concerns here..."></textarea><br><br>
+<button type="submit" id="submit">Submit</button>
+
+ </form>
+
+</body>
+</html>

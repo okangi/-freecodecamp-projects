@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+<body>
+    <main>
+        <h1>Code pro video compilation page</h1>
+    <p>Welcome to the Code Pro Video Compilation Page, your go-to destination for learning, improving, and mastering coding skills through a curated collection of insightful videos. Whether you're a beginner exploring the fundamentals of programming or an experienced developer looking to refine your expertise, this page offers a wealth of content designed to help you achieve your coding goals. </p>
+<section>
+    <h2>Lets learn HTML</h2>
+    <p>HTML (HyperText Markup Language): The backbone of web development, HTML is used to create the structure and content of web pages. It uses a series of tags to define elements such as headings, paragraphs, links, images, forms, and more. HTML provides the raw content that a web browser renders.</p>
+    <iframe 
+        src="https://www.youtube.com/watch?v=kUMe1FH4CHE" 
+        title="html full tutorial for beginners" 
+height="380"
+width="680">
+    </iframe>
+</section> 
+<section>
+    <h2>Lets learn CSS</h2>
+    <p>CSS (Cascading Style Sheets): CSS is used to style and layout HTML elements. It controls the visual aspects of a web page, such as colors, fonts, spacing, and responsiveness. CSS allows developers to create visually appealing and user-friendly designs by separating the presentation of a document from its structure (HTML).</p>
+    <iframe src="https://www.youtube.com/watch?v=wRNinF7YQqQ"
+    title="css full tutorial for beginners "
+height="380" width="680">
+    </iframe>
+</section>
+<section>
+    <h2>Lets learn Javascript</h2>
+    <p>JavaScript is a programming language that adds interactivity to web pages. It allows developers to create dynamic effects, such as animations, form validations, and real-time updates. JavaScript can manipulate HTML and CSS, enabling user interactions like clicking buttons, hover effects, and more.</p>
+    <iframe
+    src="https://www.youtube.com/watch?v=EerdGm-ehJQ" 
+    title="js full tutorial for beginners "
+height="380" width="680">
+
+    </iframe>
+    </section>   
+    </main>
+
+</body>
+
+</html>

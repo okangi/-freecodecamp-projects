@@ -1,0 +1,72 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="business-card">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="picture for my profile">
+        <p class="full-name">Cyprian Makori</p>
+        <p  class="designation">Designation</p>
+        <p  class="company">Codecamp Cy Ltd</p>
+        <hr>
+        <p>Email adress</p>
+        <p>Phone Number</p>
+        <a href="">Portfolio</a>
+        <hr>
+         <div class="social-media">
+        <h2>Connect with me</h2>
+        <a href="https://x.com/Stablem03215463">Twitter</a>
+        <a href="https://linkedin.com/Cyprian makori">LinkedIn</a>
+        <a href="https://git.com/okangi">GitHub</a>
+        
+        
+    </div>
+    </div>
+   
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+     background-color: rosybrown;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.business-card{
+  width: 300px;
+  background-color: rgb(167, 167, 216);
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profile-image{
+  max-width: 100%;
+  
+}
+
+
+** end of undefined **
+

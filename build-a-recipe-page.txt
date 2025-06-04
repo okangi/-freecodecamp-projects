@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Omellette Recipe</title>
+
+  </head>
+  <body>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fomelette&psig=AOvVaw30Y4KNJDF64DpAg-y1g_6T&ust=1743928481861000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIio14O-wIwDFQAAAAAdAAAAABAE" alt="Picture of an omelette"><br>
+    <h1><b>Simple Omelette Recipe</b></h1>
+    <p>
+      An easy and quick dish, perfect for any meal. This classsic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
+    <br>
+
+    <h2><b>Ingredients</b></h2>
+    <ul>
+      <li>2-3 large eggs</li>
+      <li>Salt, to taste</li>
+      <li>Pepper, to taste</li>
+      <li>1 tablespoon of butter or oil</li>
+      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    </ul>
+    <br>
+
+    <h2><b>Instructions</b></h2>
+    <ol>
+      <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.</li>
+      <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and butter or oil.</li>
+      <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+      <li><b>Add fillings(optional):</b> When the eggs begin to set at the edges but are slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+      <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
+
+  </body>
+</html>

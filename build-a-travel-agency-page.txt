@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="explore a creative bucket list travel designer and full service">
+  <title>The Nomad Travel Agency Page
+</title>
+</head>
+<body>
+    <h1>Travel destinations</h1>
+    <p>Discover amazing travel destinations and explore opportunities for your next adventure.</p>
+    <h2>Packages</h2>
+    <p>Explore our various travel packages, including adventure, cultural, and romantic getaways, each designed to cater to different preferences and budgets.</p>
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+    <h2>Top Itineraries</h2>
+<figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">      
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.co.uk%2Fphotos%2Fblack-family-luxury-travel%3Ffamily%3Dcreative%26page%3D3&psig=AOvVaw2oXO_WJ6IPNh-i44a830a7&ust=1744187624576000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjn77WDyIwDFQAAAAAdAAAAABAU" alt="Black Family Luxury Travel Stock Photos">
+    </a>
+    <figcaption>What a place to be
+    </figcaption>
+</figure>
+<figure>
+   <a href="https://www.freecodecamp.org/learn"  target="_blank">
+   <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fgetaway&psig=AOvVaw2oXO_WJ6IPNh-i44a830a7&ust=1744187624576000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjn77WDyIwDFQAAAAAdAAAAABAE" alt="Two tourist sitting on the beach">
+   </a>
+    <figcaption>Such an amazing scenaries
+    </figcaption>
+</figure>
+<figure>
+    <a href="https://www.freecodecamp.org/learn"  target="_blank">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fphoto%2F30839942-people-enjoying-a-meal-on-the-beach-at-sunset-ai-generated&psig=AOvVaw2oXO_WJ6IPNh-i44a830a7&ust=1744187624576000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjn77WDyIwDFQAAAAAdAAAAABAJ" alt="People enjoying a meal on the beach at sunset">
+    </a>
+    <figcaption>More of an heaven
+    </figcaption>
+</figure>
+</body>
+</html>

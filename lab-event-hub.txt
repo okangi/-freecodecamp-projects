@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+            <li><a href="#upcoming-events">Upcoming Events</a></li>
+            <li><a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Winter Wonderland Festival</h3>
+                <p>A festive event celebrating the holiday season with winter-themed activities, including an ice skating rink, holiday markets, and live performances. Perfect for families and holiday enthusiasts.</p>
+                <p>
+                    <time datetime="2023-12-02,03,04">December 2-4, 2023</time>
+                </p>
+
+            </article>
+            <article>
+                <h3>Business Leadership Summit</h3>
+                <p>A summit for business leaders to network and learn about the latest management strategies, economic forecasts, and leadership development. Guest speakers include industry pioneers and successful entrepreneurs.</p>
+                <p>
+                    <time datetime="2024-01-10,11,12"> January 10-12, 2024</time>
+                </p>
+            </article>
+        </section>
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <article>
+                <h3>Tech Innovation Conference</h3>
+                <p>A three-day conference that brought together leading tech industry experts to discuss the latest trends and innovations in technology. Keynote speeches, panel discussions, and hands-on workshops were featured.</p>
+                <p>
+                    <time datetime="2023-03-15,16,17"> March 15-17, 2023</time>
+                </p>
+                <img src="https://english.www.gov.cn/images/202009/17/5f62ffefc6d0f7258175c6ca.jpeg" alt="Visitors learn about the solutions to traffic congestion in urban areas at the 2020 Global Key and Core Technology Innovation Conference in Xi'an, Northwest China's Shaanxi province, Sept 16, 2020.">
+            </article>
+            <article>
+                <h3>Annual Charity Gala</h3>
+                <p>A fundraising gala aimed at supporting local charities. The evening featured a dinner, silent auction, and live entertainment, raising over $50,000 for community projects.
+</p>
+                <p>
+                    <time datetime="2023-04-22">April 22, 2023</time>
+                </p>
+                <img src="https://www.sema.org/sites/default/files/inline-images/sn_0722_Gala_002.jpg" alt="SEMA Awards Gala Set to Honor 2022 Hall of Fame Inductees">
+            </article>
+
+        </section>
+        
+    </main>
+
+</body>
+
+</html>
