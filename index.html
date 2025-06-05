@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {padding: 20px;
-            background-color: aqua;
-            border-radius: 8px;
-            margin-bottom: 20px 0;
+        #table{
+            margin: 20px auto;  
+            width: 65%;
+            background-color: aquamarine;         
 
         }
+        #paragraph1,
+        #paragraph{
+            padding: 4px;
+             margin: 20px auto; 
+             width: 50%;
+             background-color: aquamarine;        
+
+        }
+
+        
         #firstTitle {
-            font-size: 2.5rem;
-            color: black;
+            text-shadow: 3px 5px 10px blueviolet;
+            font-size: 1.5rem;
+            color: rgb(30, 139, 2);
             text-align: center;
             margin-bottom: 30px;
 
@@ -25,21 +36,33 @@
         }
         .tb{
             border: 2px solid;
+            margin: 0 auto;
+            width:100%;
+            text-align: center;
+            border-collapse: collapse;
         }
+        .tb th,
+        .tb td{
+            border: solid 3px white;
+            padding: 8px;
+
+        }
+        
+        
 
     </style>
 </head>
 <body>
     <h1 id="firstTitle">WILD ANIMALS AND CITIES OF AFRICA</h1>
-        <div>
+        <div id="paragraph">
             <p class=""><strong>Lion:</strong>A lion is one of the most powerful wild animals found in Africa</p>
             <p>primarily eat large herbivores such as zebras, antelopes, and buffaloes.</p>
         </div>
-        <div>
+        <div id="paragraph1">
             <p><strong>Crocodile:</strong>A crocodile is a large aquatic reptile known for its powerful jaws.</p>
             <p>Crocodiles live in rivers, lakes, and wetlands throughout Africa.</p>
         </div>
-        <div>
+        <div id="table">
             <table class="tb">
                 <thead>
                     <tr align=center>
